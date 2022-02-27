@@ -96,6 +96,7 @@ public static void main(String[] args) {
   dealerDeck.draw(playingDeck);
   dealerDeck.draw(playingDeck);
   //keep drawing keep calculating value keep fighting
+  // a lot of complexities can be added but this is nice easy way
 
 }
 
