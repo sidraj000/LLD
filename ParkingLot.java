@@ -12,6 +12,7 @@ public class ParkingSpot {
   private Vehicle vehicle;
   private VehicleSize spotSize;
   private int row;
+  
   private int spotNumber;
   private Level level;
   public ParkingSpot(Level Ivl, int r, int n, VehicleSize s) 
@@ -99,7 +100,7 @@ public class Car extends Vehicle {
    size = VehicleSize.Compact;
  }
    /* Checks if the spot is a Compact or a Large. */
-   public boolean canFitlnSpot(ParkingSpot spot) { return true;}
+   public boolean canFitlnSpot(ParkingSpot spot) { return true; }
 }
   
   public class Motorcycle extends Vehicle {
